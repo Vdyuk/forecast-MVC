@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gvs-monitoring-api"
+version = "0.1.0"
+description = "FastAPI backend for GVS monitoring demo"
+dependencies = [
+	"fastapi>=0.110.0",
+	"uvicorn[standard]>=0.29.0",
+	"pydantic>=2.7.0",
+	"python-multipart>=0.0.9",
+]
+
+
